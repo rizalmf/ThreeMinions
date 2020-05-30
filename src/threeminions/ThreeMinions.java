@@ -15,7 +15,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author TOSHIBA
+ * @author RIZAL
  */
 public class ThreeMinions extends Application {
     

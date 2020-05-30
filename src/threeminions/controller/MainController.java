@@ -26,15 +26,15 @@ public class MainController implements Initializable {
     @FXML
     private AnchorPane parent;
     @FXML
-    private Pane minionA;
+    private Pane minionA;//eye minion A
     @FXML
-    private Pane minionC1;
+    private Pane minionC1;//eye1 minion C
     @FXML
-    private Pane minionC2;
+    private Pane minionC2;//eye2 minion C
     @FXML
-    private Pane minionB2;
+    private Pane minionB2;//eye2 minion B
     @FXML
-    private Pane minionB1;
+    private Pane minionB1;//eye1 minion B
     /**
      * Initializes the controller class.
      */
@@ -48,7 +48,7 @@ public class MainController implements Initializable {
     } 
     //stage width & height
     private double parentWidth, parentHeight;
-    //pref size box
+    //pref size box from fxml
     private final double boxPrefWidth =400, boxPrefHeight =330;
     
     //pref x,y minions from fxml
